@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">ExamenU2</string>
-    <string name="start_button">Visitar</string>
-    <string name="detalles">Detalles</string>
-    <string name="globos">Globos</string>
-    <string name="peluches">Peluches</string>
-    <string name="regalos">Regalos</string>
-    <string name="tazas">Tazas</string>
-</resources>
