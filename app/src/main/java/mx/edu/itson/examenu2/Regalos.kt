@@ -1,5 +1,4 @@
-package mx.itson.edu.examenu2
-
+package mx.edu.itson.examenu2
 
 import android.content.Context
 import android.content.Intent

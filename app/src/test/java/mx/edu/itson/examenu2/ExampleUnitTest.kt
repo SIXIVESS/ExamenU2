@@ -1,4 +1,4 @@
-package mx.itson.edu.examenu2
+package mx.edu.itson.examenu2
 
 import org.junit.Test
 
