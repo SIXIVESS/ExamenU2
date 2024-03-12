@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Regalos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detalles"
+            android:textSize="25sp"
+            android:textColor="@color/pink"
+            android:fontFamily="sans-serif-condensed"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+
+            <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/pink"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="33dp"/>
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/catalogo_detalles"
+        android:layout_width="match_parent"
+        android:layout_height="668dp"
+        android:layout_marginTop="10dp"
+        android:numColumns="3"
+        android:paddingHorizontal="6dp" />
+
+
+</LinearLayout>
